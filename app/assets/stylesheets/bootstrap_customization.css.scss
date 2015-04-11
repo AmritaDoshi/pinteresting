@@ -1,7 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,400italic);
+
 $body-bg: #b19994;
-$navbar-inverse-bg: #54494b;
-$navbar-inverse-link-color: #dce0d9;
+$font-family-sans-serif:  'Josefin Sans', sans-serif;
+$navbar-height: 45px;
+$navbar-inverse-bg: #bfacaa;
+$navbar-inverse-link-color: #25231d;
+$navbar-inverse-brand-color: #680e4b;
 $brand-primary: #680e4b;
 $jumbotron-bg: #dce0d9;
 
 @import 'bootstrap';
+
+.center {
+
+	text-align: center;
+}
+
+.navbar-brand {
+
+	font-weight: bold;
+	
+}
