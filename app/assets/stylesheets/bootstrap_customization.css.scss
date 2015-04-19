@@ -9,7 +9,8 @@ $navbar-inverse-brand-color: #680e4b;
 $brand-primary: #680e4b;
 $jumbotron-bg: #dce0d9;
 
-@import 'bootstrap';
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
 .center {
 
@@ -19,6 +20,6 @@ $jumbotron-bg: #dce0d9;
 .navbar-brand {
 
 	font-weight: bold;
-	font-size:2em;
+	font-size: 2em;
 	
 }
